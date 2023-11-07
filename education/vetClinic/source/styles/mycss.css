@@ -18,7 +18,8 @@ body {
 }
 
 .navbar-toggler {
-    background-color: rgb(143, 142, 142);
+    background-color: #a2e0ef;
+    border: none;
 }
 
 .sidebar {
