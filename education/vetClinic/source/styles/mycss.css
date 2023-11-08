@@ -27,7 +27,8 @@ body {
 }
 
 .card {
-    background: linear-gradient(270deg, #a2e0ef 0%, #029196 100%);
+    background: linear-gradient(90deg, #a2e0ef 0%, #029196 100%);
+    border: none;
 }
 
 .card a {
@@ -43,14 +44,22 @@ body {
 
 footer,
 .btn-primary {
-    background: linear-gradient(270deg, #a2e0ef 0%, #029196 100%);
+    background: linear-gradient(90deg, #a2e0ef 0%, #029196 100%);
     border: none;
     color: black;
 }
 
+footer {
+    background:#212529;
+}
+
 footer a {
     text-decoration: none;
-    color: black;
+    color: aquamarine;
+}
+
+footer a:hover {
+    color: rgb(142, 143, 142);
 }
 
 .media-links {
