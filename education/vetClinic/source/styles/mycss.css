@@ -22,6 +22,15 @@ body {
     border: none;
 }
 
+.video-text h1 a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.video-text h1 a:hover {
+    color: #a2e0ef;
+}
+
 .sidebar {
     color: black;
 }
@@ -70,6 +79,10 @@ footer a:hover {
 
 .call-anim {
     animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+#imgAndroid img{
+    float: left;
 }
 
 @keyframes myAnim {
