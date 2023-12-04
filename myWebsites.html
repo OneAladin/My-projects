@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal site</title>
+  <title>My websites</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -17,12 +17,20 @@
     href="education/vetClinic/source/files/favicon_io/apple-touch-icon.png">
   <link rel="manifest" href="education/vetClinic/source/files/favicon_io/apple-touch-icon.png">
   <style>
-    .rounded-img {
-      width: 60%;
+    .card {
+      border-radius: 1em;
+      text-align: center;
+      padding: 1em;
+    }
+
+    .card:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
       border-radius: 50%;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-      padding: 0.5em;
-      margin-bottom: 1em;
+      width: 60%;
+      margin: auto;
     }
   </style>
 </head>
@@ -39,31 +47,52 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="myWebsites.html">My websites</a>
+            <a class="nav-link active" href="myWebsites.html">My websites</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="container text-center my-5">
-    <div class="row">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <img class="rounded-img" src="education/vetClinic/source/images/cat.png" alt="cat" />
-        <h1 class="fw-light">Vladislav Drozd</h1>
-        <p class="lead text-muted">Hello! These are my works and I am glad that you visited my page.</p>
-        <a href="https://instagram.com/drozd_vladik?utm_source=qr&igshid=YzU1NGVlODEzOA==" target="_blank"
-          class="btn btn-primary">
-          My Instagram page
-        </a>
+  <div class="container my-5">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+      <div class="col">
+        <div class="card">
+          <img src="education/vetClinic/source/images/Rectangle.png" class="card-img-top" alt="laptop">
+          <div class="card-body">
+            <h5 class="card-title">Veterinary clinic</h5>
+            <p class="card-text">This is my first veterinary clinic website. The site was created on November 26, 2023.
+            </p>
+            <a href="education/vetClinic/source/index.html" target="_blank" class="btn btn-primary">Look</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="education/vetClinic/source/images/i.webp" class="card-img-top" alt="laptop">
+          <div class="card-body">
+            <h5 class="card-title">The website is under construction</h5>
+            <p class="card-text">Development...</p>
+            <a href="#" class="btn btn-primary">...</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="education/vetClinic/source/images/i.webp" class="card-img-top" alt="laptop">
+          <div class="card-body">
+            <h5 class="card-title">The website is under construction</h5>
+            <p class="card-text">Development...</p>
+            <a href="#" class="btn btn-primary">...</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- <a href="education/vetClinic/source/index.html">Ветклиника (26.11.2023)</a> -->
 </body>
 
 </html>
